@@ -1,0 +1,27 @@
+{
+  "include": [
+    "backend",
+    "database",
+    "ml",
+    "notifications",
+    "scripts",
+    "tests"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "frontend"
+  ],
+  "pythonVersion": "3.14",
+  "pythonPlatform": "Windows",
+  "reportMissingImports": "none",
+  "reportAttributeAccessIssue": "none",
+  "reportArgumentType": "none",
+  "reportGeneralTypeIssues": "none",
+  "reportOptionalMemberAccess": "none",
+  "reportOptionalSubscript": "none",
+  "reportReturnType": "none",
+  "reportIndexIssue": "none",
+  "reportCallIssue": "none",
+  "reportAssignmentType": "none"
+}
